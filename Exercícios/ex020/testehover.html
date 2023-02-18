@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Hover</title>
+
+    <style>
+        h1{
+            text-align: center;
+            background-color: rgb(230, 255, 117);
+            border-radius: 10px;
+            font-size: 50px;          
+        }
+
+        div{
+            padding-top: 30px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        div > p {
+            display: none   ;
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+        p {
+            background-color: burlywood;
+        }
+    </style>
+</head>
+<body>
+    <h1> Teste de Hover</h1>
+    <div>
+        Passe o Mouse aqui!!
+         <p> mas você é muito fuxiqueiro mesmo em </p>
+         </div>
+</body>
+</html>

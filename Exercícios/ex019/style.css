@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+Podemos usar "id= ****" para identificarmos um código em especifico, e alterarmos via css, apenas ele individualmente, utilizando #, como no exemplo abaixo, no html ficou <h1 id=ramo>, e aqui ficou h1#ramo { *****}
+
+em html é class, aqui é .(ponto)
+*/
+
+
+body {
+    background-color: rgba(225, 255, 117, 0.481);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(209, 134, 36);
+    border-radius: 30px;
+}
+h2 {
+    color: rgb(114, 114, 27);
+}
+
+p {
+    text-align: center;
+}
+
+h1#ramo{
+color: black;
+background-color: rgb(209, 134, 36);
+text-align: center;
+}
+
+.principais {       
+    text-align: center;
+    padding: 30px;
+}
+
+.secundarios {
+    text-align: center;
+    padding: 30px;
+}
