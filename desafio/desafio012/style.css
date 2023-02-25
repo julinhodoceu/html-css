@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    margin: none;
+    min-height: 100%;
+}
+header {
+    
+    background-color: black;
+    color: white;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+
+}
+
+header > h1 {
+    font-size: 80px;
+    font-variant: small-caps;
+    padding-bottom: 10px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.normal {
+    background-color: white;
+
+ }
+
+ .imagem {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+ .imagem > p {
+    background-color: rgba(0, 0, 0, 0.364);
+    width: 500px;
+    color: white;
+    border-radius: 10px;
+ }
+
+
+ section {
+    padding-bottom: 80px;
+    padding-top: 80px;
+ }
+
+ section > p {
+    font-size: 40px;
+    line-height: 2;
+    margin-left: 20px;
+    padding-left: 20px;
+ }
+
+ #vaidoso {
+    background-image: url(imagens/0DA325B6-E972-4681-8329-46EA13A8FFA6.jpg);
+ }
+ 
+ #alice {
+    background-image: url(imagens/Capa.jpg);
+ }
