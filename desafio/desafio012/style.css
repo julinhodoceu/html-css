@@ -16,7 +16,7 @@ header {
     margin: 0px;
     width: 100%;
     text-align: center;
-    padding: 30px;
+    padding-bottom: 30px;
 
 }
 
@@ -52,14 +52,18 @@ footer {
  .imagem {
     background-color: black;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     background-size: cover;
     background-attachment: fixed;
  }
 
+ .imagem#vaidoso {
+    background-position: center center;
+ }
+
  .imagem > p {
     background-color: rgba(0, 0, 0, 0.364);
-    width: 500px;
+    width: 400px;
     color: white;
     border-radius: 10px;
  }
@@ -78,9 +82,9 @@ footer {
  }
 
  #vaidoso {
-    background-image: url(imagens/0DA325B6-E972-4681-8329-46EA13A8FFA6.jpg);
+    background-image: url(imagens/44329C6C-E584-497D-A6B6-BB8134350D7F.jpg);
  }
  
  #alice {
-    background-image: url(imagens/Capa.jpg);
+    background-image: url(imagens/IMG-20190121-WA0093.jpg);
  }
