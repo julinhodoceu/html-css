@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela exemplo</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        tr,th,td {
+            border: 1px solid black;
+            padding: 5px;
+            width: 200px;
+        }
+        th {
+            background-color: rgb(255, 113, 113);
+        }
+    </style>
+</head>
+<body>
+    <h1>Mais um exemplo</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Grupo</th>
+                <th>Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup"> Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+
+                <td>Laura Silva</td>
+                <td>Senhor dos Anéis</td>
+                <td>Indiana Jones</td>
+                <td>Star Wars</td>
+            </tr>
+            <tr>
+
+                <td>Marina Oliveira</td>
+                <td>Harry Potter</td>
+                <td>Jurassic Park</td>
+                <td>Matrix</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Matheus Santos</td>
+                <td>De Volta Para o Futuro</td>
+                <td>Homem-Aranha</td>
+                <td>Os Vingadores</td>
+            </tr>
+<tr>
+
+                <td>Gustavo Almeida</td>
+                <td>Star Wars</td>
+                <td>Indiana Jones</td>
+                <td>O Poderoso Chefão</td>
+            </tr>
+<tr>
+
+                <td>Pedro Fernandes</td>
+                <td>Matrix</td>
+                <td>007</td>
+                <td>Avatar</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row"> Total </th>
+                <td> xxxx</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
