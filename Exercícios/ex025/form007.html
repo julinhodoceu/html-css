@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms ex 007</title>
+</head>
+
+<body>
+    <h1>Forms 7</h1>
+    <form action="cadastro.php" method="post">
+        <div>
+            <label for="iest">Estado:</label>
+            <select name="Estado" id="iest">
+                <option value="" selected>--- Escolha ---</option>
+                <optgroup label="Região Norte">
+                    <option value="AC">Acre</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="PA">Pará</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="TO">Tocantins</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="SE">Sergipe</option>
+                </optgroup>
+                <optgroup label="Região Centro-Oeste">
+                    <option value="DF">Distrito Federal</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                </optgroup>
+                <optgroup label="Região Sudeste">
+                    <option value="ES">Espírito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+            </select>
+        </div>
+        <p>
+            <label for="iprof"> Profissão </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="Administrador">Administrador</option>
+                <option value="Advogado">Advogado</option>
+                <option value="Agente de Viagens">Agente de Viagens</option>
+                <option value="Agente Fiscal">Agente Fiscal</option>
+                <option value="Agrônomo">Agrônomo</option>
+                <option value="Almoxarife">Almoxarife</option>
+                <option value="Analista de Sistemas">Analista de Sistemas</option>
+                <option value="Arquiteto">Arquiteto</option>
+                <option value="Artista">Artista</option>
+                <option value="Assistente Social">Assistente Social</option>
+                <option value="Ator">Ator</option>
+                <option value="Auditor">Auditor</option>
+                <option value="Bibliotecário">Bibliotecário</option>
+                <option value="Biólogo">Biólogo</option>
+                <option value="Cabeleireiro">Cabeleireiro</option>
+                <option value="Carpinteiro">Carpinteiro</option>
+                <option value="Chefe de Cozinha">Chefe de Cozinha</option>
+                <option value="Comerciante">Comerciante</option>
+                <option value="Comunicólogo">Comunicólogo</option>
+                <option value="Confeiteiro">Confeiteiro</option>
+                <option value="Conselheiro Tutelar">Conselheiro Tutelar</option>
+                <option value="Contador">Contador</option>
+                <option value="Corretor de Imóveis">Corretor de Imóveis</option>
+                <option value="Costureiro">Costureiro</option>
+                <option value="Cozinheiro">Cozinheiro</option>
+                <option value="Dentista">Dentista</option>
+                <option value="Desenhista">Desenhista</option>
+                <option value="Designer">Designer</option>
+                <option value="Detetive Particular">Detetive Particular</option>
+                <option value="Digitador">Digitador</option>
+                <option value="Diretor de Arte">Diretor de Arte</option>
+                <option value="Economista">Economista</option>
+                <option value="Educador Físico">Educador Físico</option>
+                <option value="Eletricista">Eletricista</option>
+                <option value="Enfermeiro">Enfermeiro</option>
+                <option value="Engenheiro">Engenheiro</option>
+                <option value="Escritor">Escritor</option>
+                <option value="Esteticista">Esteticista</option>
+                <option value="Farmacêutico">Farmacêutico</option>
+                <option value="Fisioterapeuta">Fisioterapeuta</option>
+                <option value="Fotógrafo">Fotógrafo</option>
+                <option value="Garçom">Garçom</option>
+                <option value="Geólogo">Geólogo</option>
+                <option value="Gerente de Projetos">Gerente de Projetos</option>
+                <option value="Jardineiro">Jardineiro</option>
+                <option value="Jornalista">Jornalista</option>
+                <option value="Juiz">Juiz</option>
+                <option value="Médico">Médico</option>
+                <option value="Modelo">Modelo</option>
+                <option value="Motorista">Motorista</option>
+                <option value="Nutricionista">Nutricionista</option>
+                <option value="Odontólogo">Odontólogo</option>
+
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" style="resize: none;"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+
+</html>
