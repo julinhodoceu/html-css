@@ -19,20 +19,20 @@ header > h1 {
 }
 
 menu {
-    display: block;
+    display: none;
 }
 menu ul {
     list-style-type: none;
 }
 
 menu > ul > li > a {
-    display: none;
     padding: 10px;
     text-decoration: none;
     text-align: center;
     background-color: rgb(75, 75, 75);
     color: white;
     border-top: 2px solid rgb(121, 121, 121);
+    display: block;
 }
 
 menu ul li a:hover {
